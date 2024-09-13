@@ -1,0 +1,21 @@
+Line ID,Line Name,Line Color
+app-mod,Application Modernization,#FF6B6B
+platform,Platform Capabilities,#4ECDC4
+data,Data Management,#45B7D1
+
+Station ID,Station Name,Line ID,X,Y,Size,Milestone
+ms,Microservices,app-mod,100,100,large,TRUE
+12f,12 Factor App,app-mod,200,100,medium,FALSE
+k8s,Kubernetes,platform,150,200,large,TRUE
+sm,Service Mesh,platform,250,200,medium,FALSE
+kafka,Kafka,data,300,300,large,TRUE
+
+Benefit ID,Station ID,Benefit Name,Impact
+b1,ms,Improved scalability,80
+b2,ms,Better fault isolation,60
+b3,12f,Enhanced maintainability,70
+b4,k8s,Efficient orchestration,90
+b5,k8s,Auto-scaling,75
+b6,sm,Enhanced communication,65
+b7,kafka,Real-time data processing,85
+b8,kafka,Decoupled architecture,70
